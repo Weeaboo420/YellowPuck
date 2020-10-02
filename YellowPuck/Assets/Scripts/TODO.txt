@@ -1,0 +1,2 @@
+Need to fix a bug where a ghost can get stuck on a gate
+Need to make it so that the LevelManager figures out an appropriate Camera FOV based on the map size.

@@ -33,7 +33,7 @@ public class PlayerObject : MonoBehaviour
     {
         _spriteRenderer = GetComponent<SpriteRenderer>();
         _levelManager = GameObject.Find("LEVEL MANAGER").GetComponent<LevelManager>();
-        _nodes = GameObject.Find("LEVEL MANAGER").GetComponent<LevelManager>().GetNodes(false, true);
+        _nodes = _levelManager.GetNodes(false, true);
 
         int tempIndex = 0;
         Vector2 tempStartingNodePosition = Vector2.zero;

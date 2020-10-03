@@ -118,7 +118,7 @@ public class LevelManager : MonoBehaviour
     private Transform _levelParent;    
 
     private byte _ghostCount = 0;
-    private const byte _maxGhostCount = 3;
+    private const byte _maxGhostCount = 1;
     private List<string> _usedGhostColors;
     private List<Vector2> _usedGhostSpawns;
 
